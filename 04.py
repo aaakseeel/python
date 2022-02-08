@@ -2,7 +2,6 @@
 #a. "hitler" ratt
 #03.02.1945
 
-'''
 #matemaatika
 arv1=('')
 arv2=('')
@@ -24,8 +23,32 @@ if a==b:
     print('tegemist on ruuduga')
 else:
     print('risttahukas')
-'''
 
 #juubel
-sunnipaev=input('kirjuta sünnipäev:')
-juubel=
+sunnipaev=input('kirjuta sünnipäev pp.kk.aaaa: ')
+a=2022
+pp,kk,aaaa=sunnipaev.split('.')
+
+vanus=a-int(aaaa)
+
+a=5
+jaak = a%2
+ 
+if jaak==0:
+    print('juubel')
+else:
+    print('pole juubel')
+
+#müük
+hind=int(input('toote hind: '))
+
+if hind>10:
+    ale=0.1
+else:
+    ale=0.2
+    
+vastus=(hind*ale)
+print(vastus)
+
+#jalgpalli meeskond
+vanus=16-18
