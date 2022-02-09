@@ -2,6 +2,33 @@
 #a. "hitler" ratt
 #03.02.1945
 
+#loto
+for a in range(1,6):
+    randint()
+
+'''
+#tärnid
+arv=5
+for i in range(1,6):
+    print('* '*arv)
+    arv=arv-1
+
+for i in range(1,6):
+    print('* '*5)
+
+for i in range(1,6):
+    print('* '*i)
+
+#jalgpalli meeskond
+sugu=input('sisesta sugu: ')
+
+if sugu=='mees':
+    vanus=int(input('sisesta vanus: '))
+    if vanus>=16 and vanus<=18:
+        print('sobid meeskonda')
+    else:
+        print('ei sobi meeskonda')
+    
 #matemaatika
 arv1=('')
 arv2=('')
@@ -49,6 +76,4 @@ else:
     
 vastus=(hind*ale)
 print(vastus)
-
-#jalgpalli meeskond
-vanus=16-18
+'''
