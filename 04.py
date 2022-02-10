@@ -1,11 +1,35 @@
+import random
 #h04
-#a. "hitler" ratt
-#03.02.1945
+#aksel ratt
+#03.02.22
+
+#ruutude ja kuupide tabel
+
+#pank
+konto=0
+raha=int(input('summa: '))
+aastad=int(input('aastad: '))
+intress=0.05
+konto=konto+raha
+
+print
+for a in range(aastad):
+    kasum=konto*intress
+    print(konto,kasum,konto+kasum)
+    konto=konto+kasum
+
+
+#arvamismäng
+
+#viiskud
+
+#paaris ja paaritu
+
+#pisike korrutustabel
 
 #loto
 for a in range(1,6):
-    randint()
-
+    print(random.randint(0, 9),end='')
 '''
 #tärnid
 arv=5
