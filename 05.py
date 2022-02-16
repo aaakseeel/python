@@ -2,10 +2,21 @@
 #aksel ratt
 #15.02.22
 
-#Vanused
+#Tärnid
+arvud=[16,17,18,19,20]
 
+print(arvud)
+for x in range(sum(arvud)):
+    print('*'*arvud[x])
 
 '''
+#Vanused
+vanused=[16,17,18,19,20]
+
+print(vanused)
+print(min(vanused),max(vanused))
+print(sum(vanused)/len(vanused)) #olen geenius
+
 #Duplikaadid
 opilased=['Juhan','Kati','Mario','Mario','Mati','Mati']
 opilased=sorted(set(opilased))
