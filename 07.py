@@ -16,15 +16,35 @@ if valik==1:
     a=int(input('Sisesta kuubi külje pikkus a = '))
     print(kuup(a))
     
-def kera(d):
-    s=3,14*d**2
-    return s
+def kera(r):
+    v=round(4*3.14*r**2)
+    return v
 
 if valik==2:
     print('Ahah, nii kõva mees...')
-    d=int(input('Sisesta kera diameeter d = '))
-    print(kera(d))
+    r=int(input('Sisesta kera raadius r = '))
+    print(kera(r))
+    
+def koonus(r,h):
+    v=round(4*3.14*r**2)
+    return v
 
+if valik==3:
+    print('Olgu. Teeme ära!')
+    h=int(input('Sisesta koonuse kõrgus h = '))
+    r=int(input('Sisesta koonuse raadius r = '))
+    print(koonus(r,h))
+    
+def silinder(r,h):
+    v=round(3.14*r**2*h)
+    return v
+
+if valik==4:
+    print('Davai!')
+    r=int(input('Sisesta silindri raadius r: '))
+    h=int(input('Sisesta silindri kõrgus h: '))
+    print(koonus(r,h))
+    
 '''
 #1 ja 2
 def tervita(n,keel='de'):
