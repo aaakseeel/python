@@ -26,3 +26,5 @@ auto.lisamark('mersu')
 auto.lisaasta('2000')
 auto.lisahind('3000')
 auto.kuva()
+
+print()
