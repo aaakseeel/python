@@ -1,0 +1,15 @@
+import turtle
+
+#akna seaded
+aken = turtle.Screen()
+aken.setup(300,300)
+ 
+#kujundi loomine
+t = turtle.Turtle()
+for x in range(0,6):
+    t.fd(100)
+    t.rt(120)
+    t.fd(100)
+    t.rt(120)
+    t.fd(100)
+    t.rt(180)
