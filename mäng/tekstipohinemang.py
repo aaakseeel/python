@@ -49,7 +49,7 @@ if algus == 1:
 elif algus == 2:
     exit()
     
-print(f'tere, {kn}! oled otsimas järgmist doosi, et end normaalsena tunda')
+print(f'jou, {kn}! sinu eesmärk: tapa ära sibul, et saada narkot')
 print()
 
 # mäng
