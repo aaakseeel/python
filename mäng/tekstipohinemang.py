@@ -16,16 +16,14 @@ vdmg = random.randint(10, 30) # kahju mida vaenlane teeb
 # menüü
 print('kalevipoeg ja igavene narkomaania')
 print()
-print('lugu: aksel ratt')
-print()
-print('progemine: ratman')
+print('lugu ja progemine: aksel ratt')
 print()
 algus = int(input('(1) alusta (2) anna alla '))
 
 print()
 
 # kakluse valikud
-def kaklus(velud,elud):
+def kaklus(velud, elud):
     global algus
     while elud >= 0 and velud >= 0:
         velud -= dmg
@@ -48,7 +46,7 @@ if algus == 1:
     kn = input('nimi: ')
     while algus == 1:
         print(algus)
-        kaklus(elud,velud)
+        kaklus(elud, velud)
 elif algus == 2:
     exit()
     
@@ -57,10 +55,10 @@ print()
 
 # mäng
 while elud >= 0:
-    print('sibul')
+    print('lvl 1: sibul')
     print()
     print('sibul: kakleme')
     print()
     print('kalevipoeg: teeme nii')
     
-    kaklus(elud,velud)
+    kaklus(elud, velud)
