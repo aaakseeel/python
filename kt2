@@ -1,0 +1,22 @@
+#kt2
+#8. odaviske võistlus
+#aksel ratt
+
+#avame faili
+fail=open('oda_uus.txt','r')
+
+#funktsioon
+nimed=[]
+tulemused=[]
+
+for x in fail:
+    pnimi,enimi,t1,t2,t3=x.split(' ')
+    
+    if (t1>t2) and (t1>t3):
+        largest=t1
+    elif (t2>t1) and (t2>t3):
+        largest=t2
+    else:
+        largest=t3
+        
+    print(largest)
