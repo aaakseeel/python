@@ -59,5 +59,6 @@ while elud >= 0:
     print('sibul: kakleme')
     print()
     print('kalevipoeg: teeme nii')
+    print()
     
     kaklus(elud, velud)
