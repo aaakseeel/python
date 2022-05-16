@@ -48,7 +48,8 @@ if algus == 1:
         kaklus(elud, velud)
 elif algus == 2:
     exit()
-    
+
+# nime valik
 print(f'jou, {kn}! sinu eesmärk: tapa ära sibul, et saada narkot')
 print()
 
