@@ -19,10 +19,9 @@ print()
 print('lugu ja progemine: aksel ratt')
 print()
 algus = int(input('(1) alusta (2) anna alla '))
-
 print()
 
-# kakluse valikud
+# kakluse funktsioon
 def kaklus(velud, elud):
     global algus
     while elud >= 0 and velud >= 0:
