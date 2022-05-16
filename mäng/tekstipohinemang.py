@@ -40,7 +40,8 @@ def kaklus(velud, elud):
     else:
         print('surid')
         algus = 2
-        
+
+# nime valik
 if algus == 1:
     kn = input('nimi: ')
     while algus == 1:
@@ -49,7 +50,6 @@ if algus == 1:
 elif algus == 2:
     exit()
 
-# nime valik
 print(f'jou, {kn}! sinu eesmärk: tapa ära sibul, et saada narkot')
 print()
 
