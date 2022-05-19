@@ -27,6 +27,7 @@ def kaklus(velud, elud):
     while elud >= 0 and velud >= 0:
         velud -= dmg
         elud -= vdmg
+        print()
         print(f'tegid {dmg} kahju')
         print()
         print(f'vaenlane tegi {vdmg} kahju')
