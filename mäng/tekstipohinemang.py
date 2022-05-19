@@ -36,9 +36,11 @@ def kaklus(velud, elud):
         print(f'vaenlase elud: {velud}')
     
     if velud <= 0:
+        print()
         print('võit')
         algus = 2
     else:
+        print()
         print('surid')
         algus = 2
 
