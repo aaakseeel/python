@@ -38,6 +38,8 @@ def kaklus(velud, elud):
     if velud <= 0:
         print()
         print('võit')
+        print()
+        print('fin')
         algus = 2
     else:
         print()
