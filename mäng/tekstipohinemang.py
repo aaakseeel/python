@@ -62,3 +62,4 @@ while elud >= 0:
     print('kalevipoeg: teeme nii')
     print()
     kaklus(elud, velud)
+    break
